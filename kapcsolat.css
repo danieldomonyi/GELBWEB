@@ -1,0 +1,196 @@
+.navigationbar {
+  width: 100%;
+  background-color: rgba(75, 75, 74, 0.205);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navoldalak {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navoldalak li {
+  margin: 0 10px;
+}
+
+.navoldalak li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #eeff00a9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #0c0c0cdc;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.navoldalak li a:hover {
+  background-color: #111306;
+  color: #ffffff;
+}
+
+.navoldalak li a.active {
+  background-color: #030300;
+  color: #e6ff02;
+}
+
+.nav_logo {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+ul li {
+  display: flex;
+  margin: 20, 20;
+}
+
+.keret {
+  border: none;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #333333bd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  text-align: left;
+  font-family: sans-serif;
+  color: #ffd700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #000000 25%, #ffeb3b 75%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+table td,
+table th {
+  padding: 15px;
+  text-align: center;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+p {
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #000000;
+}
+
+a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: white;
+  background-color: #dad60db2;
+}
+
+.facebook-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.facebook-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #4267b2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.facebook-button:hover {
+  background-color: #365899;
+}
+
+.facebook-icon {
+  margin-right: 8px;
+}
+
+.instagram-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.instagram-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e1306c;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.instagram-button:hover {
+  background-color: #c13584;
+}
+
+.instagram-icon {
+  margin-right: 8px;
+}
+
+footer {
+  background-color: rgba(75, 75, 74, 0.205);
+  color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.labjegyzek {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-button {
+  text-decoration: none;
+  color: #000;
+  background-color: #0c0c0cdc;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.social-button:hover {
+  background-color: #ffc107;
+}
+
+.social-icon {
+  margin-right: 8px;
+}
